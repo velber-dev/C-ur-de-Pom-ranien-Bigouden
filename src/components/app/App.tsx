@@ -30,7 +30,7 @@ function App() {
                 <Gallery setRef={Navbar.getRef("gallery")} />
                 <ContactUs />
                 <Benefits setRef={Navbar.getRef("benefits")} />
-                <Documents />
+                {/* <Documents /> */}
                 <Articles />
                 <Delivery setRef={Navbar.getRef("delivery")} />
             </main>
